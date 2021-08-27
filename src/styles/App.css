@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .light {
@@ -9,8 +10,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 15px;
   justify-content: space-between;
+  padding: 0 15px;
   transition: background 1s, color 1s;
 }
 
@@ -21,8 +22,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 15px;
   justify-content: space-between;
+  padding: 0 15px;
   transition: background 1s, color 1s;
 }
 
@@ -47,7 +48,7 @@ button {
 }
 
 .button-close {
-  margin-top: 25px;
+  color: #03adad;
   font-size: 30px;
-  color: #7f5af0;
+  margin-top: 25px;
 }
