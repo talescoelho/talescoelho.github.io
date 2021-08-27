@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './Components/Header';
 import Home from './Pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={ Home } />
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <Header />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={ Home } />
+        </Switch>
+      </BrowserRouter>
+    </div>
   );
 }
 
