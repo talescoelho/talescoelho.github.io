@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-modal';
 import '../styles/Header.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header({ setClassMode, classMode }) {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -48,7 +48,7 @@ function Header({ setClassMode, classMode }) {
           className="gradient"
           onClick={openModal}
         >
-          <FontAwesomeIcon icon={ faBars } />
+          <FontAwesomeIcon icon={ faBars || faCode } />
         </button>
       </section>
       <section className="header-right">
