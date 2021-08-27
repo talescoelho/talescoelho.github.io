@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+}
+
+.gradient {
+  font-size: 30px;
+  font-weight: 600;
+  color: #7f5af0;
+}
+
+.header-modal {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 70%);
+}
+
+.list-links a {
+  color: #673ce7;
+  font-size: 2em;
+  font-weight: 900;
+  list-style: none;
+  text-decoration: none;
+}
+
+.li-1 {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+.li-2 {
+  animation-duration: 0.9s;
+  animation-name: slidein;
+}
+
+.li-3 {
+  animation-duration: 1.2s;
+  animation-name: slidein;
+}
+
+.li-4 {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
