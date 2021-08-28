@@ -1,4 +1,19 @@
 footer {
   height: 5vh;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.dark footer a {
+  color: #fffffe;
+  font-size: 1.1em;
+  transition: all 1s;
+}
+
+.light footer a {
+  color: #232323;
+  font-size: 1.1em;
+  transition: all 1s;
 }
