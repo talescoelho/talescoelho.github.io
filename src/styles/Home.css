@@ -2,3 +2,66 @@ main {
   height: 85vh;
   width: 100%;
 }
+
+.meu-hero {
+  position: absolute;
+  left: -130px;
+  width: 130%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+.light p {
+  font-weight: 600;
+  transition: font-weight .4s ease-in-out;
+}
+
+.dark p {
+  font-weight: 500;
+  transition: font-weight .9s ease-in-out;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.dark .page-button {
+  border-radius: 30px;
+  border: 3px solid #7f5af0;
+  color: #2cb67d;
+  font-weight: 900;
+  height: 35px;
+  width: 100px;
+  font-size: 1.1em;
+  transition: all 1s;
+}
+
+.light .page-button {
+  border-radius: 30px;
+  border: 3px solid #2cb67d;
+  color: #078080;
+  font-weight: 600;
+  height: 35px;
+  font-size: 1.1em;
+  width: 100px;
+  transition: all 1s;
+}
+
+.container-text {
+  margin-top: 150px;
+}
+
+.container-buttons {
+  margin-bottom: 40px;
+}
