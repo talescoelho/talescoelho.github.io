@@ -5,8 +5,8 @@ main {
 
 .meu-hero {
   position: absolute;
-  left: -130px;
-  width: 130%;
+  left: -100px;
+  width: 150%;
   padding: 0;
   margin: 0;
   z-index: 0;
