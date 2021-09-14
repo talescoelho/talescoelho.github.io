@@ -1,5 +1,6 @@
 import React from 'react';
 import meuHero from '../images/hero-copilot.png';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 export default function Home() {
@@ -11,8 +12,12 @@ export default function Home() {
         <h3>Estudante de Desenvolvimento Web</h3>
       </div>
       <div className="container-buttons">
-        <button className="page-button">Sobre</button>
-        <button className="page-button">Projetos</button>
+        <Link to="/about">
+          <button className="page-button">Sobre</button>
+        </Link>
+        <Link to="/projects">
+          <button className="page-button">Projetos</button>
+        </Link>
       </div>
     </main>
   )

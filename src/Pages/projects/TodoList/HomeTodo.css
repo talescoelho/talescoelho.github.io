@@ -1,0 +1,81 @@
+.dark .home-todo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.dark .upper-todo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark .home-todo input {
+  font-size: 1.8em;
+  font-weight: 900;
+  height: 30px;
+  margin-bottom: 9px;
+  text-align: center;
+  width: 100%;
+}
+
+.dark .add-task-button {
+  border-radius: 5px;
+  border: 1px solid white;
+  color: #fffffe;
+  font-size: 1.2em;
+  font-weight: 900;
+  height: 30px;
+  width: 150px;
+}
+
+.dark .task-list {
+  align-self: flex-start;
+}
+
+.selected {
+  background-color: #303030;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.dark .list-item {
+  width: 71vw;
+  margin-top: 7px;
+}
+
+.dark .change-button {
+  border-radius: 5px;
+  border: 1px solid white;
+  color: #fffffe;
+  font-size: 1.2em;
+  font-weight: 900;
+  height: 30px;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+
+.dark .filter-buttons {
+  align-self: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.dark .filter-buttons .change-button {
+  font-size: 1em;
+  height: 40px;
+  margin-top: 5px;
+  padding: 0 4px;
+  width: 45%;
+}
+
+.change-button:active, .add-task-button:active {
+  background-color: rgb(0, 0, 39);
+}
