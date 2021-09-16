@@ -36,15 +36,14 @@
   box-shadow:rgb(116, 116, 116) 10px 10px 10px;
 }
 
-.dark .card-project img {
-  width: 100%;
-}
-
 .dark .link-project {
   text-decoration: none;
 }
 
 .dark .title-project {
+  background-color: rgb(129, 129, 129);
+  padding: 5px;
+  border-radius: 15px;
   color: aliceblue;
   text-align: center;
   margin-bottom: 10px;
@@ -57,4 +56,17 @@
     0 0 42px rgb(36, 0, 196),
     0 0 53px rgb(36, 0, 196),
     0 0 60px rgb(36, 0, 196);
+}
+
+.teste {
+  height: 70vh;
+}
+
+.slide {
+  height: 55vh;
+}
+
+.link-project img {
+  height: 100%;
+  width: 100px;
 }
