@@ -6,7 +6,10 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
+// - projects
 import HomeTodo from './Pages/projects/TodoList/HomeTodo';
+import PixelArt from './Pages/projects/PixelArt/PixelArt';
+// - projects
 import './styles/App.css';
 
 function App() {
@@ -19,7 +22,8 @@ function App() {
           <Route exact path="/" component={ Home } />
           <Route exact path="/about" component={ About } />
           <Route exact path="/projects" component={ Projects } />
-          <Route exact path="/projects/:id" component={ HomeTodo } />
+          <Route exact path="/projects/todolist" component={ HomeTodo } />
+          <Route exact path="/projects/pixelart" component={ PixelArt } />
           <Route exact path="/contact" component={ Contact } />
         </Switch>
       </BrowserRouter>

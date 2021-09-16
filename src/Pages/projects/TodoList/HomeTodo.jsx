@@ -71,7 +71,7 @@ function HomeTodo() {
           placeholder="Tarefa"
           onChange={ ({ target }) => setTask(target.value) }
         />
-        <div>
+        <div className="container-buttons-upper">
           <button
             className="add-task-button"
             onClick={ () => {

@@ -79,3 +79,9 @@
 .change-button:active, .add-task-button:active {
   background-color: rgb(0, 0, 39);
 }
+
+.dark .container-buttons-upper {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+}

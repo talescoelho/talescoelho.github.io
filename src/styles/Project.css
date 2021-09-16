@@ -1,20 +1,10 @@
-.meu-hero {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  bottom: 0;
-  padding: 0;
-  margin: 0;
-  z-index: 0;
-  opacity: 0.2;
-}
-
-.container-projects {
+.dark .container-projects {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 40px;
-  width: 100vw;
-  z-index: 1;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  height: 70vh;
 }
 
 .dark .page-button {
@@ -37,4 +27,34 @@
   font-size: 1.1em;
   width: 100px;
   transition: all 1s;
+}
+
+.dark .card-project {
+  border: 1px solid white;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow:rgb(116, 116, 116) 10px 10px 10px;
+}
+
+.dark .card-project img {
+  width: 100%;
+}
+
+.dark .link-project {
+  text-decoration: none;
+}
+
+.dark .title-project {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 9px rgb(18, 0, 100),
+    0 0 12px #fff,
+    0 0 21px rgb(36, 0, 196),
+    0 0 33px rgb(36, 0, 196),
+    0 0 42px rgb(36, 0, 196),
+    0 0 53px rgb(36, 0, 196),
+    0 0 60px rgb(36, 0, 196);
 }
